@@ -36,11 +36,11 @@ public class TeleporterPuzzle {
 	 *  19:07:20.860 [main] INFO  org.teiohanson.synacor.VirtualMachine - 5483: set 32768 4						register1 = 4
 	 *  19:07:20.860 [main] INFO  org.teiohanson.synacor.VirtualMachine - 5486: set 32769 1						register2 = 1
 	 *  19:07:20.860 [main] INFO  org.teiohanson.synacor.VirtualMachine - 5489: call 6027
- 	 *  19:07:20.860 [main] INFO  org.teiohanson.synacor.VirtualMachine - 5491: eq 32769 32768 6				register1 == 6
-     *  19:07:20.860 [main] INFO  org.teiohanson.synacor.VirtualMachine - 5495: jf 32769 5579
-     *  
-     *  Function(6027)
-     *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6027: jt 32768 6035					if(register1 == 0) continue, else goto 6035
+	 *  19:07:20.860 [main] INFO  org.teiohanson.synacor.VirtualMachine - 5491: eq 32769 32768 6				register1 == 6
+	 *  19:07:20.860 [main] INFO  org.teiohanson.synacor.VirtualMachine - 5495: jf 32769 5579
+	 *  
+	 *  Function(6027)
+	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6027: jt 32768 6035					if(register1 == 0) continue, else goto 6035
 	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6030: add 32768 32769 1				register1 = register2 + 1
 	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6034: ret
 	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6035: jt 32769 6048					if(register2 == 0) continue, else goto 6048
