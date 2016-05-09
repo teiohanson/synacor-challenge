@@ -50,7 +50,7 @@ public class TeleporterPuzzle {
 	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6047: ret
 	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6048: push 32768						push register1 to the stack before calling the function recursively.
 	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6050: add 32769 32769 32767			register2 -= 1
-	 * 	19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6054: call 6027
+	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6054: call 6027
 	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6056: set 32769 32768					register2 = register1 (This is the return of the recursive call at 6054)
 	 *  19:07:20.874 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6059: pop 32768						pop the previous value of register1 off the stack.
 	 *  19:07:20.875 [main] INFO  org.teiohanson.synacor.VirtualMachine - 6061: add 32768 32768 32767			register1 -= 1
